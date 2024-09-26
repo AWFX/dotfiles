@@ -1,2 +1,2 @@
 # Information
-- Operating System - [Fedora].(https://fedoraproject.org/)
+- Operating System - [Fedora](https://fedoraproject.org/)
