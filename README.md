@@ -4,3 +4,4 @@
 - Terminal • [kitty](https://github.com/kovidgoyal/kitty)
 - Shell • [zsh](https://ohmyz.sh/)
 - Panel • [waybar](https://github.com/Alexays/Waybar)
+- Wallpaper Engine • [swww](https://github.com/LGFae/swww)
