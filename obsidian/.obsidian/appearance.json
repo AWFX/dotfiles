@@ -1,0 +1,11 @@
+{
+  "baseFontSize": 20,
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "accentColor": "#3eb0ea",
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "style"
+  ],
+  "showRibbon": false
+}

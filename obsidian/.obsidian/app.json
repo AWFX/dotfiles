@@ -1,0 +1,17 @@
+{
+  "promptDelete": false,
+  "userIgnoreFilters": [],
+  "attachmentFolderPath": "cache/images",
+  "newFileLocation": "folder",
+  "showInlineTitle": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 56
+  },
+  "alwaysUpdateLinks": true,
+  "newFileFolderPath": "cache/inbox",
+  "strictLineBreaks": false
+}
