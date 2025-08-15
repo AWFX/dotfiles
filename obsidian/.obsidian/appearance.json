@@ -2,7 +2,7 @@
   "baseFontSize": 20,
   "cssTheme": "Minimal",
   "theme": "obsidian",
-  "accentColor": "#3eb0ea",
+  "accentColor": "#3a82cf",
   "showViewHeader": true,
   "enabledCssSnippets": [
     "style"
