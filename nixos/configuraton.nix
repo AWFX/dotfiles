@@ -22,6 +22,7 @@ users.users.loylifer = {
 };
 
 nixpkgs.config.allowUnfree = true;
+programs.hyprland.enable = true;
 
 # Install pkgs.
 environment.systemPackages = with pkgs; [
@@ -29,10 +30,9 @@ environment.systemPackages = with pkgs; [
   wget
   firefox
   virtualbox
-  hyprland
+  kitty
   openssh
   google-chrome
-  vagrant
 ];
 
 # Enable the OpenSSH daemon.
