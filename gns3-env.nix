@@ -15,6 +15,7 @@ pkgs.buildFHSEnv {
   ];
 
   multiPkgs = pkgs: with pkgs; [
+    glibc
   ] ++ (with pkgs.pkgsi686Linux; [
     glibc
   ]);
