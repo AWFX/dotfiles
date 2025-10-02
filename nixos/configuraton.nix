@@ -4,6 +4,22 @@
   imports = [
     ./hardware-configuration.nix
   ];
+  
+  hardware.bluetooth = {
+    enable = true;
+    powerOnBoot = true;
+    settings = {
+      General = {
+        Experimental = true;
+        FastConnectable = true;
+      };
+        Policy = {
+        AutoEnable = true;
+      };
+    };
+  };
+
+  services.blueman.enable = true;
 
 
   # Use the systemd-boot EFI boot loader.
@@ -20,13 +36,25 @@
   # Networking.
   networking.hostName = "laptop";
   networking.networkmanager.enable = true;
-  
+  networking.extraHosts =
+    ''
+     10.1.1.100 gitlab.com
+     192.168.0.100 msi zvirt.local
+    '';
+
   # Set time zone.
   time.timeZone = "Asia/Yekaterinburg";
   
   # Add zsh in system.
   programs.zsh = {
     enable = true;
+    shellAliases = {
+      v = "vim";
+      ll = "ls -lh";
+      gst = "git status";
+      rebuild = "sudo nixos-rebuild switch";
+      duf = "duf -only local";
+    };
   };
 
   # User account.
@@ -36,7 +64,7 @@
     "wheel"  
     "networkmanager"
     "docker"
-    "ubridge"
+    "audio"
     ];
 
     shell = pkgs.zsh;
@@ -64,32 +92,36 @@
   users.extraGroups.vboxusers.members = [ "loylifer" ]; 
 
 
-  users.groups.ubridge = {};
-#  users.users.loylifer.extraGroups = [ "ubridge" ];
-
-  users.groups.gns3 = { };
-  users.users.gns3 = {
-    group = "gns3";
-    isSystemUser = true;
-  };
-
   programs.steam = {
   enable = true;
-  remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
-  dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
-  localNetworkGameTransfers.openFirewall = true; # Open ports in the firewall for Steam Local Network Game Transfers
+  remotePlay.openFirewall = true;
+  dedicatedServer.openFirewall = true;
+  localNetworkGameTransfers.openFirewall = true;
 };
 
   fonts.packages = with pkgs; [
     jetbrains-mono
     noto-fonts
     font-awesome
+
+    dejavu_fonts
+    liberation_ttf
+    cantarell-fonts
+    ubuntu_font_family
+    roboto
+    inter
+    source-sans-pro
+    open-sans
+    lora
+    merriweather
     ];
   
   # Install pkgs.
   environment.systemPackages = with pkgs; [
     home-manager
     hyprlock
+    hypridle
+    wlogout
     neovim
     docker
     docker-compose
@@ -136,6 +168,16 @@
     discord
     terminal-parrot
     gcc
+    termius
+    bluetui
+    firefox
+    vim
+    sl
+    cmatrix
+    asciiquarium
+    bundler
+    ruby_3_4
+    nmap
   ];
 
   services.udisks2.enable = true;
@@ -146,7 +188,7 @@
     enable = true;
     nssmdns4 = true;
     openFirewall = true;
-};
+  };
 
   system.stateVersion = "22.05";
 }
