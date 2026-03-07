@@ -1,0 +1,268 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1a7460f25427a65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "273e7b812efb0109",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "hub/tasks.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-trello",
+              "title": "tasks"
+            }
+          },
+          {
+            "id": "57b28b03d33047e7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "pro/basic/roadmap.md"
+              },
+              "pinned": true,
+              "icon": "excalidraw-icon",
+              "title": "roadmap"
+            }
+          },
+          {
+            "id": "fd208d4d62304c7d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "cache/inbox/2026-02-27 01.32.20.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "2026-02-27 01.32.20"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "55f73917cb1ac799",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd76b239d0bcf2a8",
+        "type": "tabs",
+        "dimension": 61.93619361936194,
+        "children": [
+          {
+            "id": "8f55a42c430d320f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3b9cbc784c6b0076",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "665fa77dcf9f468f",
+        "type": "tabs",
+        "dimension": 38.06380638063806,
+        "children": [
+          {
+            "id": "43ecc148fc361ba9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "774316acaced7f4e",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 222.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f23d160af6283317",
+    "type": "split",
+    "children": [
+      {
+        "id": "5078baca03a57f21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e83bef3cf541d1f4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "cache/inbox/2026-02-27 01.32.20.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-02-27 01.32.20"
+            }
+          },
+          {
+            "id": "0c2b0d6533bd4f68",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "8d799c1ddaf00998",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e9d8a1211ec37e1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 282.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "random-note:Open random note": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "publish:Publish changes...": false,
+      "zk-prefixer:Create new unique note": false
+    }
+  },
+  "active": "fd208d4d62304c7d",
+  "lastOpenFiles": [
+    "pro/basic/roadmap.md",
+    "cache/inbox/2026-02-27 01.32.20.md",
+    "cache/inbox/systemd.md",
+    "cache/inbox/2026-03-03 14.16.04.md",
+    "cache/inbox/!Загрузка компьютера.md",
+    "pro/git/git.md",
+    "cache/inbox/kubernetes.md",
+    "cache/images/Pasted image 20260303172434.png",
+    "cache/inbox/Untitled.md",
+    "hub/tasks.md",
+    "pro/linux/Файл дескриптор.md",
+    "pro/linux",
+    "cache/inbox/PnetLab.md",
+    "cache/inbox/Untitled 5.md",
+    "cache/inbox/!Untitled 3.md",
+    "cache/inbox/Одежда.md",
+    "cache/inbox/Правила успеха Кристиана Бейла.md",
+    "cache/inbox/Пет-проекты.md",
+    "cache/inbox/Метод Лотоса.md",
+    "cache/inbox/Концентрация.md",
+    "cache/inbox/Данные для входа в ВМ.md",
+    "cache/inbox/Базы данных.md",
+    "cache/inbox/Temp.md",
+    "cache/inbox/storage linux.md",
+    "cache/inbox/processes.md",
+    "cache/inbox/Skinny Fat.md",
+    "cache/inbox/s3.md",
+    "cache/inbox/role_temp.md",
+    "pro/concept",
+    "cache/images/Pasted image 20260222164544.png",
+    "cache/images/Pasted image 20260222013716.png",
+    "pro/docker",
+    "cache/images/Pasted image 20260216151122.png",
+    "cache/images/Pasted image 20260216014635.png",
+    "cache/images/Pasted image 20260216014620.png",
+    "cache/images/Pasted image 20260216014542.png",
+    "cache/images/Pasted image 20260216014522.png",
+    "cache/images/Pasted image 20260216014444.png",
+    "cache/images/Pasted image 20260214173012.png",
+    "pro/web",
+    "pro/virt",
+    "pro/projects",
+    "cache/inbox/cryptolec/sedeuGz3j",
+    "cache/inbox/cryptolec",
+    "cache/cache",
+    "obs"
+  ]
+}

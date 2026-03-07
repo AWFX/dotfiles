@@ -1,0 +1,18 @@
+/* Reading mode (просмотр) */
+.markdown-preview-view p:not(:has(code), :has(pre), .cm-line, .code, .math, blockquote, table, ul, ol) {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+}
+
+/* Source view + Live preview (редактирование) */
+.markdown-source-view.mod-cm6 .cm-line:not(.HyperMD-codeblock, .cm-inline-code, .cm-blockquote, .cm-table, .HyperMD-list-line) {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+}
+
