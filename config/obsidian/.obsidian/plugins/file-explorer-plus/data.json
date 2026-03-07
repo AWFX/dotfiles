@@ -22,7 +22,14 @@
         "name": "",
         "active": true,
         "type": "DIRECTORIES",
-        "pattern": "legacy",
+        "pattern": "pro/basic",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "pro/security/L2",
         "patternType": "STRICT"
       },
       {
@@ -36,70 +43,14 @@
         "name": "",
         "active": true,
         "type": "DIRECTORIES",
-        "pattern": "pro/basic",
+        "pattern": "hub",
         "patternType": "STRICT"
       },
       {
         "name": "",
         "active": true,
         "type": "DIRECTORIES",
-        "pattern": "pro/net",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "DIRECTORIES",
-        "pattern": "pro/utmn",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "DIRECTORIES",
-        "pattern": "imp/mindset",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "DIRECTORIES",
-        "pattern": "imp/ideas",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "DIRECTORIES",
-        "pattern": "imp/finance",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "DIRECTORIES",
-        "pattern": "pro/security/L2",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "FILES",
-        "pattern": "hub/tasks.md",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "FILES",
-        "pattern": "hub/reminds.md",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "DIRECTORIES",
-        "pattern": "pro/automatization",
+        "pattern": "imp/daily",
         "patternType": "STRICT"
       }
     ],

@@ -13,5 +13,6 @@
   },
   "alwaysUpdateLinks": true,
   "newFileFolderPath": "cache/inbox",
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "trashOption": "system"
 }

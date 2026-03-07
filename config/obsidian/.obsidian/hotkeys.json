@@ -1,14 +1,6 @@
 {
   "workspace:undo-close-pane": [],
   "obsidian-icon-folder:iconize:set-icon-for-file": [],
-  "editor:insert-wikilink": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Q"
-    }
-  ],
   "editor:delete-paragraph": [],
   "app:delete-file": [
     {
@@ -51,14 +43,6 @@
     }
   ],
   "command-palette:open": [],
-  "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowRight"
-    }
-  ],
   "workspace:split-horizontal": [
     {
       "modifiers": [
@@ -73,14 +57,6 @@
         "Mod"
       ],
       "key": "ArrowLeft"
-    }
-  ],
-  "app:toggle-right-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowUp"
     }
   ],
   "editor:set-heading-2": [
@@ -219,20 +195,44 @@
       "key": "P"
     }
   ],
-  "oz-clear-unused-images:clear-images-obsidian": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "X"
-    }
-  ],
   "random-note": [
     {
       "modifiers": [
         "Alt"
       ],
       "key": "R"
+    }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "oz-clear-unused-images:clear-images-obsidian": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowRight"
     }
   ]
 }

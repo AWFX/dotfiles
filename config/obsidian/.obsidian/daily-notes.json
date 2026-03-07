@@ -1,5 +1,5 @@
 {
   "folder": "imp/daily",
   "template": "cache/templates/day",
-  "format": "DD-MM-YYYY"
+  "format": "YYYY-MM-DD"
 }

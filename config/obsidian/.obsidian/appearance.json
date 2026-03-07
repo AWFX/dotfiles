@@ -1,11 +1,12 @@
 {
-  "baseFontSize": 20,
+  "baseFontSize": 18,
   "cssTheme": "Minimal",
   "theme": "obsidian",
-  "accentColor": "#3a82cf",
+  "accentColor": "#e72340",
   "showViewHeader": true,
   "enabledCssSnippets": [
-    "style"
+    "style",
+    "justify"
   ],
   "showRibbon": false
 }

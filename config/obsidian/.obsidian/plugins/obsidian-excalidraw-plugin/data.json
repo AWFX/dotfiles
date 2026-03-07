@@ -1,6 +1,6 @@
 {
   "disableDoubleClickTextEditing": false,
-  "folder": "cache/drawings",
+  "folder": "cache/inbox",
   "cropFolder": "",
   "annotateFolder": "",
   "embedUseExcalidrawFolder": false,
@@ -40,7 +40,7 @@
   "isLeftHanded": false,
   "iframeMatchExcalidrawTheme": true,
   "matchTheme": false,
-  "matchThemeAlways": false,
+  "matchThemeAlways": true,
   "matchThemeTrigger": false,
   "defaultMode": "normal",
   "defaultPenMode": "never",
